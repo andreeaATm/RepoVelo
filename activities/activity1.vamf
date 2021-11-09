@@ -1,6 +1,6 @@
 {
-   "name":"Activity 11 - RepoVelo",
-   "priority": 1001,
+   "name":"Activity A",
+   "priority": 100,
    "shortDescription": "Prio 1001",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
