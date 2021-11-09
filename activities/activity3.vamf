@@ -1,6 +1,6 @@
 {
-   "name":"Activity 3 - RepoVelo",
-   "shortDescription": "Test Activity on eduard-repo in master branch",
+   "name":"Activity 13 - RepoVelo",
+   "shortDescription": "Test Activity on eduard-repo in master branch, Priority 30",
    "priority": 30,
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
