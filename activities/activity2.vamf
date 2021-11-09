@@ -1,14 +1,14 @@
 {
-   "name":"Activity 2 - Repo 1",
-   "shortDescription": "Test Activity on eduard-repo in master branch",
+   "name":"Activity 12 - RepoVelo",
+   "priority": 1,
+   "shortDescription": "Prio 100",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
-   "topology": [{
-      "name": "Topology 2",
+   "topology": [
+{
+      "name": "Topology 1",
       "actionTitle":"Reserve",
-      "description": "Immediate reservation of two VMs Velocity VM and VDS VM",
-      "reservationDuration":"60",
-      "automation": [],
-      "interaction":[]
+      "description": "Create an immediate reservation on the topologyXPath is the language used for locating nodes in an XML document. As HTML can be an implementation of 12222?><//!@#$%^&*()_",
+      "reservationDuration":""
     }]
 }
