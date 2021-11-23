@@ -1,7 +1,7 @@
 {
-   "name":"Activity B",
-   "priority": 51,
-   "shortDescription": "Prio 51",
+   "name":"Reserve Velocity Cluster No Weight A",
+   "priority": ,
+   "shortDescription": "N/A",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
    "topology": [
