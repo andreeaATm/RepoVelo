@@ -1,7 +1,7 @@
 {
-   "name":"Reserve Velocity Cluster Same Weight Z",
-   "priority": 60,
-   "shortDescription": "Prio 60",
+   "name":"Reserve Velocity Cluster In Folder",
+   "priority": 80,
+   "shortDescription": "Prio 80",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
    "topology": [
