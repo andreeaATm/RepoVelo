@@ -1,6 +1,6 @@
 {
    "name":"Reserve Velocity Cluster No Weight A",
-   "priority": ,
+   "priority":0 ,
    "shortDescription": "N/A",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
