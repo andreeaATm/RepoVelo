@@ -1,7 +1,7 @@
 {
-   "name":"Activity C",
-   "priority": 1,
-   "shortDescription": "Prio 51",
+   "name":"Reserve Velocity Cluster Max Weight",
+   "priority": 100,
+   "shortDescription": "100",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"Activity1.md",
    "topology": [
