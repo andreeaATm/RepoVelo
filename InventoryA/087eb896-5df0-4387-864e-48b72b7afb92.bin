@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Topo Andreea for SCM</name>
+<description/>
+<isSharedAccess>false</isSharedAccess>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="i08a8494c-6368-4519-946b-2583b095d861" id="i08a8494c-6368-4519-946b-2583b095d861" shared="false" type="group">
+<property isimportant="false" name="name">Lab Abs Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="collapsed"/>
+<boundary height="395" width="140" x="485" y="39"/>
+<resource guid="1a498121-3d7b-49ea-a24e-6e68739552df" id="i2a470868-1f93-4619-b473-c6c8dd20fce2" shared="true" type="device">
+<property isimportant="false" name="name">Lab Abs</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=1a498121-3d7b-49ea-a24e-6e68739552df</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Lab]</extensions>
+<boundary height="100" width="100" x="20" y="35"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="58bc4395-a37b-4fbb-a016-2fd930bd1443" id="id7ce7b0a-3ea0-4551-83b6-946e4d3a13b7" shared="true" type="device">
+<property isimportant="false" name="name">Rack Abs</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=58bc4395-a37b-4fbb-a016-2fd930bd1443</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">i2a470868-1f93-4619-b473-c6c8dd20fce2</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Rack]</extensions>
+<boundary height="100" width="100" x="20" y="155"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="eeeacfcd-7002-4063-8cd2-43adba8e6ab4" id="i4736d81e-c64f-4bf2-ab0b-b22648c60798" shared="true" type="device">
+<property isimportant="false" name="name">Server 1 Abs</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=eeeacfcd-7002-4063-8cd2-43adba8e6ab4</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">id7ce7b0a-3ea0-4551-83b6-946e4d3a13b7</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Server 1]</extensions>
+<boundary height="100" width="100" x="20" y="275"/>
+<property name="inventoryName"/>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>

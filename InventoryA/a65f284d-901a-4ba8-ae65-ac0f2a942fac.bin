@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+  <header>
+  <name>velo-5565_Topology</name>
+<description>This topology has been updated for test purposes</description>
+</header>
+  <body>
+    <resources>
+<resource id="ibf0e8f04-da2a-71cf-2ca5-7fe33d5349ca" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i04455ef9-03aa-97fb-1998-71bd338eb7fa" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="12" y="5"/>
+<property name="name">velo-5565_Orchestrated_S1_11</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="iddb22e3c-60cf-fe6b-d5a0-99caa276bdfd" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="29" y="27"/>
+<property name="name">velo-5565_Orchestrated_S2_11</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i04455ef9-03aa-97fb-1998-71bd338eb7fa</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i8c04782a-8e99-2a6a-3da3-decd7cc70ca7" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ibbb617ec-efbc-e6b8-836f-bbd9e07fb2cc" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="idb1fd95d-36a1-03a0-6688-41cd77814ccc" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="0" y="46"/>
+<property name="name">velo-5565_Orchestrated_S1_5</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i1c8f1bd7-cd28-5acc-11ed-f16fd3058d5e" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="41" y="13"/>
+<property name="name">velo-5565_Orchestrated_S2_5</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">idb1fd95d-36a1-03a0-6688-41cd77814ccc</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i1c90fe6f-05aa-8e24-91f4-e11d21c77101" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i6ed18e17-5b6f-4f0b-9de2-16cb228ce6d9" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="if17fcf77-5307-0adb-54d7-acd297ae26b8" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="3" y="4"/>
+<property name="name">velo-5565_Orchestrated_S1_6</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ib0bfeebd-ab86-ac8f-3d99-55ab1d3bd9cc" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="26" y="30"/>
+<property name="name">velo-5565_Orchestrated_S2_6</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">if17fcf77-5307-0adb-54d7-acd297ae26b8</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i1e81a1ba-8add-dc1e-6ec0-d7b82b791fe2" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ifd5197ac-f84f-3ccd-baeb-cf79bbde17e7" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i4a96d085-eb0b-b2a3-df68-49aef76abb8b" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="32" y="13"/>
+<property name="name">velo-5565_Orchestrated_S1_18</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ia386810f-e1b2-eb23-57fb-7fe9072aaddd" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="36" y="20"/>
+<property name="name">velo-5565_Orchestrated_S2_18</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i4a96d085-eb0b-b2a3-df68-49aef76abb8b</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i4fbfa1ac-0200-9dae-eb9b-14a0170eece8" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i17e81f3f-f54b-8c0e-5bbf-2ce8156bb38f" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="idd7bb6c9-344a-5c58-eaea-ac191f393a5f" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="2" y="25"/>
+<property name="name">velo-5565_Orchestrated_S1_14</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i2fcf8d28-02ef-ff0a-56f9-d1f6d48144c3" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="5" y="42"/>
+<property name="name">velo-5565_Orchestrated_S2_14</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">idd7bb6c9-344a-5c58-eaea-ac191f393a5f</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="if071521e-ea8b-cfed-b5ec-4ff9c78c86a5" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i8cf62ff0-8f0e-b7cb-b80e-eddf133f9a2f" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i0f58da5c-ec77-f7fd-f044-5ea643aeaaae" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="0" y="4"/>
+<property name="name">velo-5565_Orchestrated_S1_9</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="icf7cb54b-b8a5-13e9-ce4b-3cf0d54fd79c" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="27" y="18"/>
+<property name="name">velo-5565_Orchestrated_S2_9</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i0f58da5c-ec77-f7fd-f044-5ea643aeaaae</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i9eaecd9d-f2e6-7df2-1e9d-d819b8181c95" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i9ce5dcb0-4ce5-ad38-d5fc-a0b6c67b36aa" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i6d9348fe-176c-3df0-b61b-7a762d2cffce" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="33" y="7"/>
+<property name="name">velo-5565_Orchestrated_S1_2</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i8c0cf4f4-acb9-5d84-8310-5ce0ca8b4f50" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="37" y="17"/>
+<property name="name">velo-5565_Orchestrated_S2_2</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i6d9348fe-176c-3df0-b61b-7a762d2cffce</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ib4d37c57-11f3-a2c3-ef15-84f1caa4a7aa" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i092d0a1a-5fd8-cf6c-fe62-4a6f48736745" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="iaa2bffcc-72f0-cec3-aeda-bd1ce228dddc" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="29" y="7"/>
+<property name="name">velo-5565_Orchestrated_S1_12</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i251b90eb-eaeb-8f33-d1df-85f4cae8b3ed" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="17" y="6"/>
+<property name="name">velo-5565_Orchestrated_S2_12</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">iaa2bffcc-72f0-cec3-aeda-bd1ce228dddc</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ia23b05bd-269e-5bca-edfe-9fecb7e5a13c" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="if5f3a565-a841-3195-843d-1e2f603c6e95" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i18ef6113-36fd-f5ae-d94c-efeb16baace3" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="29" y="1"/>
+<property name="name">velo-5565_Orchestrated_S1_4</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ibb35fac9-b63b-39c6-bfbd-8f273bdb4e4a" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="44" y="20"/>
+<property name="name">velo-5565_Orchestrated_S2_4</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i18ef6113-36fd-f5ae-d94c-efeb16baace3</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ib6e15f0b-b737-6c5c-7aa1-ca72c0053262" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i98ec4860-5eda-e108-cdce-15c6a8dd72c9" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="ied47fc03-3cbc-bda2-b261-a5e8fa63f10a" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="9" y="7"/>
+<property name="name">velo-5565_Orchestrated_S1_1</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i5abcefbd-fda1-064f-faa6-d47ffb5ddeb0" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="44" y="12"/>
+<property name="name">velo-5565_Orchestrated_S2_1</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">ied47fc03-3cbc-bda2-b261-a5e8fa63f10a</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i6b64e066-d307-673f-9447-11e7d04acaa3" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ibd52158f-6b6f-fea6-e3dc-2bfbae4530ab" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i8760b519-dd79-06f7-1852-bd7efcfb2853" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="46" y="31"/>
+<property name="name">velo-5565_Orchestrated_S1_19</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i2d13f7b0-49bd-9e41-2354-0eec7cd0f777" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="9" y="39"/>
+<property name="name">velo-5565_Orchestrated_S2_19</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i8760b519-dd79-06f7-1852-bd7efcfb2853</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ice0ba6e2-a1d1-137a-84dd-abaeddb629ca" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ib3affd9c-04ad-d43a-eff7-109bcea193cf" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i92e2a2cb-cbfc-3efe-3fe8-218ec1ce2f4e" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="29" y="50"/>
+<property name="name">velo-5565_Orchestrated_S1_3</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ie071eed4-dbf1-1bfa-a2a2-ae9bdbca47bc" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="1" y="46"/>
+<property name="name">velo-5565_Orchestrated_S2_3</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i92e2a2cb-cbfc-3efe-3fe8-218ec1ce2f4e</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i3429afe0-7224-a6d6-a64d-2a6853dfae65" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i5ebaf4ee-27af-edcb-4c81-cbb1f5d05f43" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i864d4de0-025e-f9ec-c4eb-88bba3b21b95" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="4" y="20"/>
+<property name="name">velo-5565_Orchestrated_S1_15</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i1ae4ced8-e99b-eeba-0dd0-0ac498aab95c" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="50" y="49"/>
+<property name="name">velo-5565_Orchestrated_S2_15</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i864d4de0-025e-f9ec-c4eb-88bba3b21b95</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="if0e2307e-a6f8-22a2-c0bb-35c7ed8f44c3" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ifb6c7a0e-906d-adae-cef7-14f6e1c82584" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="ib0dac213-59ab-fccc-0ca9-2e2cdef7c2c1" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="11" y="9"/>
+<property name="name">velo-5565_Orchestrated_S1_13</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ifba35f08-c6e5-a349-510e-f7ba8e3748a8" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="13" y="44"/>
+<property name="name">velo-5565_Orchestrated_S2_13</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">ib0dac213-59ab-fccc-0ca9-2e2cdef7c2c1</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ie94571a6-e00b-e340-f4e7-ef93ec3674db" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i69e967ba-817a-7fb9-fdf8-01a5c7f5b3cd" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="if11155db-1bc9-c0ca-54fa-28e1c9c6697d" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="28" y="1"/>
+<property name="name">velo-5565_Orchestrated_S1_8</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i1e8acabf-fb4e-ac1e-3d25-d94ecf6687b3" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="3" y="47"/>
+<property name="name">velo-5565_Orchestrated_S2_8</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">if11155db-1bc9-c0ca-54fa-28e1c9c6697d</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i5a1a24e5-fdfe-16e1-8581-ec1b1decbb89" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="ide29b498-7bcb-fbc6-59ff-f10e6518ea7f" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i1e4fd5cf-578a-addc-fc4c-10700d0a742e" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="25" y="38"/>
+<property name="name">velo-5565_Orchestrated_S1_7</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="if8bce635-7af9-a89e-6ed5-6eef97edf3cf" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="17" y="2"/>
+<property name="name">velo-5565_Orchestrated_S2_7</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i1e4fd5cf-578a-addc-fc4c-10700d0a742e</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ib1c8d96f-f856-e925-05b6-38264ef8fa36" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i4a27ccdd-fdd0-0dda-fe56-a071aabbed3f" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="icebd1cb2-03f9-aecf-985b-4cc20f4aafef" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="3" y="0"/>
+<property name="name">velo-5565_Orchestrated_S1_17</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ib8ab3347-5c2b-8fbc-f53a-0f46c84ad251" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="19" y="25"/>
+<property name="name">velo-5565_Orchestrated_S2_17</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">icebd1cb2-03f9-aecf-985b-4cc20f4aafef</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="id860944b-b6db-daa0-e9bb-4c3793a3e2fd" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i46bbaf0f-0153-be3c-83f5-75b2be140f93" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i2f1618cc-bdfe-fa71-3f22-ecdaf3b51cbe" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="15" y="6"/>
+<property name="name">velo-5565_Orchestrated_S1_16</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="ia142a8be-f804-f992-9897-3c514ec9caac" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="19" y="1"/>
+<property name="name">velo-5565_Orchestrated_S2_16</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i2f1618cc-bdfe-fa71-3f22-ecdaf3b51cbe</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="ieef385cd-9c6a-c0bc-0db5-03c38de00595" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="i7bcbccf5-a54b-e34a-f2af-3a169c8d554b" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="iaec72fd6-b2cd-845d-05ea-67c8c9aa524f" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="49" y="48"/>
+<property name="name">velo-5565_Orchestrated_S1_10</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i47d6643a-aeaf-4cb6-f651-899380c4d0de" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="39" y="23"/>
+<property name="name">velo-5565_Orchestrated_S2_10</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">iaec72fd6-b2cd-845d-05ea-67c8c9aa524f</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="icde1e237-df4c-a25d-ddf5-3bbae67ce60d" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+<resource id="id1308759-ae0c-f6a9-1c1b-d6241f21f81f" shared="false" type="group">
+<boundary height="275" width="140" x="242" y="68"/>
+<property name="name">velo-5565_Orchestrated_S1 Group</property>
+<property name="description">Orchestration Test Group</property>
+<property name="collapsed">false</property>
+<property name="isOrchestrated">true</property>
+<resource guid="a4313630-cf5b-4fc9-8096-23563347c476" id="i61edbb80-edbb-9fa9-2fc4-2dcec8832dc9" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="19" y="34"/>
+<property name="name">velo-5565_Orchestrated_S1_20</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=26b7154e-59a3-4571-a8d9-4b26cb4ad6a2</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property name="templateId">96777ec1-4851-49ae-aaa3-1e11cb19b120</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[velo-5565_Template_Orch1]</extensions>
+</resource>
+<resource guid="c8d069b9-d89d-48f4-a37e-373d59d23bd0" id="i2aae36fe-9d63-c4fb-e743-cffd3ece1bca" shared="true" skipvalidation="false" type="device">
+<boundary height="100" width="100" x="43" y="16"/>
+<property name="name">velo-5565_Orchestrated_S2_20</property>
+<property name="iconURI">ilo://api/0/resource/icon?id=10ec44e3-2138-4c09-bc43-1ceab4ce1035</property>
+<property name="ilo_shape">RECTANGLE</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="templateId">7a53ed89-8c63-44aa-9d9d-da46e75df7b0</property>
+<property name="hostResource_topologyResourceId">i61edbb80-edbb-9fa9-2fc4-2dcec8832dc9</property>
+<property name="hostResource_parentType">PARENT</property>
+<resource guid="54bc23e1-10f5-4419-b7e2-ea701c1e6423" id="i24bbb7ce-d5b5-a398-a12f-ceaab5f24b4f" shared="false" skipvalidation="false" type="port">
+<property name="name">velo-5565_Port_OrchP</property>
+<property name="description">Orchestration Test</property>
+<property name="connectivity">ANY</property>
+<property name="reservationTime">IMMEDIATE</property>
+<property name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+</resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>
